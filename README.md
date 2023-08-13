@@ -2,14 +2,15 @@
 Primer assignment for HHA 504/507
 
 ## Summary 
-Created a number and string vaiable and added a print statement to run the two variables. 
+(1) Created a number and string vaiable and added a print statement to run the two variables. 
 ```
 total_cholesterol_level = 150
 var1 = 'Your total cholesterol level is: '
 print(var1, total_cholesterol_level)
 ```
 
-Created a list of different cholesterol levels. Included an if, elif, else, and print statements for each variable on the list. Each print statement will print: "Your total cholesterol level is: " plus the variable {var} and an end statement. 
+
+(2) Created a list of different cholesterol levels. Included an if, elif, else, and print statements for each variable on the list. Each print statement will print: "Your total cholesterol level is: " plus the variable {var} and an end statement. 
 + For cholesterol levels less than 200, the end statement is: "You are healthy."
 + For cholesterol levels 200 - 239, the end statement is: "You have high cholesterol." 
 + For cholesterol levels greater than 239, the end statement is "Please consult with your doctor." 
@@ -24,7 +25,8 @@ for var in Cholesterol_list:
         print(f"Your total cholesterol level is: {var}. Please consult with your doctor. \n")
 ```
 
-Created a dictionary called 'patients' with 3 nested dictionaries. Each nested dictionary is named with a patient name and has 4 key:value pairs called age, gender, chart, and medications. A list is included in each nested dictionary called medications. 
+
+(3) Created a dictionary called 'patients' with 3 nested dictionaries. Each nested dictionary is named with a patient name and has 4 key:value pairs called age, gender, chart, and medications. A list is included in each nested dictionary called medications. 
 ```
 patients = {
     'Emma': {

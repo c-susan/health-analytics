@@ -62,6 +62,7 @@ patients = {
 + If cholesterol level less than 200, the healthy, the function returns 'Healthy'.
 + If cholesterol levelis 200 - 239, the function returns 'At-Risk'.
 + If cholesterol level is greater than 239, the function returns 'High Cholesterol'.
+
 Example data and a variable called "output" is created to return the function "cholesterol". Print statements at the end will print the total cholesterol level and the corresponding status, either 'Healthy', 'At-Risk', or 'High Cholesterol'. 
 ```
 def cholesterol(LDLcholesterol, HDLcholesterol, triglycerideLevel):

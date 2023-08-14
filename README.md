@@ -8,15 +8,13 @@ import pandas as pd
 import numpy as np 
 ```
 <br>
-<br>
 
 (2) Created a number and string vaiable and added a print statement to run the two variables. 
 ```
 total_cholesterol_level = 150
 var1 = 'Your total cholesterol level is: '
-print(var1, total_cholesterol_level)
+print(var1, total_cholesterol_level, '\n','\n')
 ```
-<br>
 <br>
 
 (3) Created a list of different cholesterol levels. Included an if, elif, else, and print statements for each variable on the list. Each print statement will print: "Your total cholesterol level is: " plus the variable {var} and an end statement. 
@@ -27,11 +25,12 @@ print(var1, total_cholesterol_level)
 Cholesterol_list = [100, 150, 200, 220, 250, 300]
 for var in Cholesterol_list:
     if var < 200:
-        print(f"Your total cholesterol level is: {var}. You are healthy. \n")
+        print(f"Your total cholesterol level is: {var}. You are healthy.")
     elif var >= 200 and var <= 239: 
-        print(f"Your total cholesterol level is: {var}. You are at-risk for high cholesterol. \n")
+        print(f"Your total cholesterol level is: {var}. You are at-risk for high cholesterol.")
     else: 
-        print(f"Your total cholesterol level is: {var}. You have high cholesterol. \n")
+        print(f"Your total cholesterol level is: {var}. You have high cholesterol.")
+print('\n \n')
 ```
 <br>
 <br>
@@ -59,7 +58,6 @@ patients = {
     }
 }
 ```
-<br>
 <br>
 
 (5) Created a function to measure cholesterol level with if, elif, and else statements. The function takes in the variables: LDLcholesterol, HDLcholesterol, and triglycerideLevel. Cholesterol level is calculated by the equation:  totalCholesterol = LDLcholesterol + HDLcholesterol + (0.2 * triglycerideLevel)
@@ -90,7 +88,6 @@ print(f'Your status is: {output}')
 ```
 ### Given the example data, the function will return the following: 
 
-<br>
 <br>
 <br>
 

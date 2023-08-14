@@ -18,17 +18,17 @@ print(var1, total_cholesterol_level)
 
 (3) Created a list of different cholesterol levels. Included an if, elif, else, and print statements for each variable on the list. Each print statement will print: "Your total cholesterol level is: " plus the variable {var} and an end statement. 
 + For cholesterol levels less than 200, the end statement is: "You are healthy."
-+ For cholesterol levels 200 - 239, the end statement is: "You have high cholesterol." 
-+ For cholesterol levels greater than 239, the end statement is "Please consult with your doctor." 
++ For cholesterol levels 200 - 239, the end statement is: "You are at-risk for high cholesterol." 
++ For cholesterol levels greater than 239, the end statement is "You have high cholesterol." 
 ```
 Cholesterol_list = [100, 150, 200, 220, 250, 300]
 for var in Cholesterol_list:
     if var < 200:
         print(f"Your total cholesterol level is: {var}. You are healthy. \n")
     elif var >= 200 and var <= 239: 
-        print(f"Your total cholesterol level is: {var}. You have high cholesterol. \n")
+        print(f"Your total cholesterol level is: {var}. You are at-risk for high cholesterol. \n")
     else: 
-        print(f"Your total cholesterol level is: {var}. Please consult with your doctor. \n")
+        print(f"Your total cholesterol level is: {var}. You have high cholesterol. \n")
 ```
 
 

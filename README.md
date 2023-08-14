@@ -33,7 +33,6 @@ for var in Cholesterol_list:
 print('\n \n')
 ```
 <br>
-<br>
 
 (4) Created a dictionary called 'patients' with 3 nested dictionaries. Each nested dictionary is named with a patient name and has 4 key:value pairs called age, gender, chart, and medications. A list is included in each nested dictionary called medications. 
 ```

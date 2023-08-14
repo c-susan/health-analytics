@@ -4,7 +4,8 @@ import numpy as np
 # Created a number and string vaiable. Added a print statement to run the two variables. 
 total_cholesterol_level = 150
 var1 = 'Your total cholesterol level is: '
-print(var1, total_cholesterol_level)
+print(var1, total_cholesterol_level, '\n','\n')
+
 
 
 # Created a list of total cholesterol levels. Included an if, elif, else, and print statements for each variable in the list. 
@@ -12,14 +13,19 @@ print(var1, total_cholesterol_level)
 # For cholesterol levels less than 200, the end statement is: "You are healthy." 
 # For cholesterol levels 200 - 239, the end statement is: "You are at-risk for high cholesterol." 
 # For cholesterol levels greater than 239, the end statement is "You have high cholesterol." 
+
 Cholesterol_list = [100, 150, 200, 220, 250, 300]
 for var in Cholesterol_list:
     if var < 200:
-        print(f"Your total cholesterol level is: {var}. You are healthy. \n")
+        print(f"Your total cholesterol level is: {var}. You are healthy.")
     elif var >= 200 and var <= 239: 
-        print(f"Your total cholesterol level is: {var}. You are at-risk for high cholesterol. \n")
+        print(f"Your total cholesterol level is: {var}. You are at-risk for high cholesterol.")
     else: 
-        print(f"Your total cholesterol level is: {var}. You have high cholesterol. \n")
+        print(f"Your total cholesterol level is: {var}. You have high cholesterol.")
+print('\n \n')
+
+
+
 
 #Created a dictionary called 'patients' with 3 nested dictionaries. 
 #Each nested dictionary is named with a patient name and has 4 key:value pairs called age, gender, chart, and medications. 
@@ -45,6 +51,8 @@ patients = {
     }
 }
 
+
+
 #Created a function to measure cholesterol level with if, elif, and else statements. 
 #The function takes in the variables: LDLcholesterol, HDLcholesterol, and triglycerideLevel. 
 #Cholesterol level is calculated by the equation:  totalCholesterol = LDLcholesterol + HDLcholesterol + (0.2 * triglycerideLevel)
@@ -53,6 +61,7 @@ patients = {
 #If cholesterol level is greater than 239, the function returns 'High Cholesterol'.
 #Example data and a variable called "output" is created to return the function "cholesterol". 
 #Print statements at the end will print the total cholesterol level and the corresponding status, either 'Healthy', 'At-Risk', or 'High Cholesterol'. 
+
 def cholesterol(LDLcholesterol, HDLcholesterol, triglycerideLevel):
     totalCholesterol = LDLcholesterol + HDLcholesterol + (0.2 * triglycerideLevel)
     if totalCholesterol < 200:

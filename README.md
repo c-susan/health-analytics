@@ -8,6 +8,7 @@ import pandas as pd
 import numpy as np 
 ```
 <br>
+<br>
 
 (2) Created a number and string vaiable and added a print statement to run the two variables. 
 ```
@@ -15,6 +16,7 @@ total_cholesterol_level = 150
 var1 = 'Your total cholesterol level is: '
 print(var1, total_cholesterol_level)
 ```
+<br>
 <br>
 
 (3) Created a list of different cholesterol levels. Included an if, elif, else, and print statements for each variable on the list. Each print statement will print: "Your total cholesterol level is: " plus the variable {var} and an end statement. 
@@ -31,6 +33,7 @@ for var in Cholesterol_list:
     else: 
         print(f"Your total cholesterol level is: {var}. You have high cholesterol. \n")
 ```
+<br>
 <br>
 
 (4) Created a dictionary called 'patients' with 3 nested dictionaries. Each nested dictionary is named with a patient name and has 4 key:value pairs called age, gender, chart, and medications. A list is included in each nested dictionary called medications. 
@@ -56,6 +59,7 @@ patients = {
     }
 }
 ```
+<br>
 <br>
 
 (5) Created a function to measure cholesterol level with if, elif, and else statements. The function takes in the variables: LDLcholesterol, HDLcholesterol, and triglycerideLevel. Cholesterol level is calculated by the equation:  totalCholesterol = LDLcholesterol + HDLcholesterol + (0.2 * triglycerideLevel)
@@ -84,3 +88,12 @@ output = cholesterol(LDLinput, HDLinput, triglycerideInput)
 print("Your total cholesterol level is:", LDLinput + HDLinput + (0.2 * triglycerideInput))
 print(f'Your status is: {output}')
 ```
+### Given the example data, the function will return the following: 
+
+<br>
+<br>
+<br>
+
+Reference:
+Cleveland Clinic. (n.d.). _Cholesterol numbers and what they mean_. Retrieved August 13, 2023, from https://my.clevelandclinic.org/health/articles/11920-cholesterol-numbers-what-do-they-mean
+

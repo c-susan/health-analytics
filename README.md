@@ -9,7 +9,7 @@ import numpy as np
 ```
 <br>
 
-(2) Created a number and string vaiable and added a print statement to run the two variables. 
+(2) Created a number and string variable and added a print statement to run the two variables. 
 ```
 total_cholesterol_level = 150
 var1 = 'Your total cholesterol level is: '

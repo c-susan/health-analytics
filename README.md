@@ -86,8 +86,8 @@ output = cholesterol(LDLinput, HDLinput, triglycerideInput)
 print("Your total cholesterol level is:", LDLinput + HDLinput + (0.2 * triglycerideInput))
 print(f'Your status is: {output}')
 ```
-###### Given the example data, the function will return the following: 
-
+Given the example data in section (5), the function will return the following: 
+<img width="307" alt="Screenshot 2023-08-13 at 11 17 53 PM" src="https://github.com/c-susan/health-analytics/assets/123512714/6af79f9e-8537-4c6c-a106-8b2d7a6367c9">
 <br>
 <br>
 
